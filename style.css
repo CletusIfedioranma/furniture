@@ -1,0 +1,79 @@
+button{
+    outline: none;
+    border: 1px solid rgb(118, 248, 92);
+    color: white;
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 1.4rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(118, 248, 92);
+    border: 1px solid #222;
+    transition: 2s all ease;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-image: linear-gradient( rgba(34, 34, 34, 0.63), rgba(34, 34, 34, 0.63)),url("sofer.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-color: #222;
+}
+.top{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.logo{
+    font-weight: 600;
+    text-transform: uppercase;
+    color:white;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-right: 1rem;
+}
+.nav{
+ margin-right: 1rem;
+ cursor: pointer;
+}
+.nav:hover{
+    color: rgb(118, 248, 92);
+}
+.home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+
+}
+.title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.sub-title{
+    font-size: 1.4rem;
+}
+.btn{
+    text-transform: uppercase;
+}
